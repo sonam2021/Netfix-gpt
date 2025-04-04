@@ -28,6 +28,12 @@
   - update store with tailer video data
   - Embadded the youtube video and make it autoplay and mute
   - Tailwind classes to make main container look awesome
+  - build secondary component
+  - build movie list
+  - build movie card
+  - TMDB image cdn url
+  - made the browser page amazing with tailwind css
+  - usePopularMovies custom hook
 
 
 # Features 
