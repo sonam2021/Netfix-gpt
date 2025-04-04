@@ -12,7 +12,7 @@
   - create sign up user account
   - implement sign in user api
   - create redux Store with userSlice
-  - implemented sign out
+  - implemented sign out 
   - update profile
   - bugfix: sign up user displayName and  profile picture update
   - bugfix: if user is not logged redirect/browse to login page and vice-versa 
@@ -28,7 +28,7 @@
   - update store with tailer video data
   - Embadded the youtube video and make it autoplay and mute
   - Tailwind classes to make main container look awesome
-    
+
 
 # Features 
 - login/sign up
