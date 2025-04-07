@@ -2,7 +2,6 @@ import React from 'react'
 import MovieCard from './MovieCard'
 
 const MovieList = ({title, movies}) => {
-    console.log(movies, "movielist");
     if(!movies || movies.length === 0) {
         return <p>No movies to display.</p>;
       }

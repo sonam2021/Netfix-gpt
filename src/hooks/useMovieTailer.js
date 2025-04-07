@@ -10,12 +10,10 @@ const useMovieTailer = () => {
     const getMoviesVideos = async () => {
       const data = await fetch(YOUTUBE_URL);
       const json = await data.json();
-      console.log(json);
   
       const filterData = json.items.filter(
         (video) => video.snippet.title === "The Avengers 2012 Trailer"
       );
-      console.log(filterData);
       // setTailerId(filterData?.[0]?.id?.videoId)
       dispach(addTailerVideo(filterData))
     };
